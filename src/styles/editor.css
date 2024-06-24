@@ -1,0 +1,21 @@
+.ql-toolbar .ql-customButton {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px; /* Adjusted width for better visibility */
+  height: 24px; /* Adjusted height for better visibility */
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+}
+
+.ql-toolbar .ql-customButton::before {
+  content: "⭐️"; /* Add the star icon */
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

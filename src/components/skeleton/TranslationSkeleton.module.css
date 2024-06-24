@@ -1,0 +1,35 @@
+.skeleton-container {
+  padding: 20px;
+}
+
+.skeleton-title {
+  width: 200px;
+  height: 24px;
+  background: #ccc;
+  margin-bottom: 20px;
+}
+
+.skeleton-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skeleton-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.skeleton-image {
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.skeleton-text {
+  width: 150px;
+  height: 24px;
+  background: #ccc;
+}
